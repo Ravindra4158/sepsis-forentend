@@ -1,0 +1,75 @@
+:root {
+  --bg-base:          #f4f7f3;
+  --bg-surface:       rgba(255, 255, 255, 0.82);
+  --bg-surface-strong:#ffffff;
+  --bg-card:          rgba(255, 255, 255, 0.94);
+  --bg-card-hover:    #eef3ed;
+  --bg-input:         #f9fbf8;
+  --bg-modal:         rgba(17, 30, 34, 0.46);
+
+  --border:           rgba(25, 52, 56, 0.10);
+  --border-strong:    rgba(25, 52, 56, 0.20);
+  --border-focus:     rgba(31, 111, 104, 0.34);
+
+  --text-primary:     #183238;
+  --text-secondary:   #46636a;
+  --text-muted:       #7b9197;
+  --text-inverse:     #f7faf8;
+
+  --cyan:             #2d6f8a;
+  --cyan-bg:          rgba(45, 111, 138, 0.10);
+  --cyan-border:      rgba(45, 111, 138, 0.24);
+
+  --green:            #1f6f68;
+  --green-bg:         rgba(31, 111, 104, 0.10);
+  --green-border:     rgba(31, 111, 104, 0.24);
+
+  --amber:            #c78b2a;
+  --amber-bg:         rgba(199, 139, 42, 0.12);
+  --amber-border:     rgba(199, 139, 42, 0.24);
+
+  --orange:           #c26434;
+  --orange-bg:        rgba(194, 100, 52, 0.12);
+  --orange-border:    rgba(194, 100, 52, 0.24);
+
+  --red:              #ba4b45;
+  --red-bg:           rgba(186, 75, 69, 0.12);
+  --red-border:       rgba(186, 75, 69, 0.25);
+
+  --purple:           #6e7098;
+  --purple-bg:        rgba(110, 112, 152, 0.12);
+  --purple-border:    rgba(110, 112, 152, 0.25);
+
+  --doctor-color:     #2d6f8a;
+  --nurse-color:      #1f6f68;
+  --admin-color:      #6e7098;
+
+  --font-display:     'Segoe UI', 'Trebuchet MS', sans-serif;
+  --font-mono:        'IBM Plex Mono', monospace;
+
+  --sidebar-width:    284px;
+  --sidebar-collapsed: 84px;
+  --navbar-height:    78px;
+  --footer-height:    56px;
+
+  --radius-xs:  4px;
+  --radius-sm:  10px;
+  --radius-md:  16px;
+  --radius-lg:  22px;
+  --radius-xl:  30px;
+  --radius-full: 9999px;
+
+  --shadow-sm:  0 10px 24px rgba(25, 52, 56, 0.06);
+  --shadow-md:  0 20px 50px rgba(25, 52, 56, 0.10);
+  --shadow-lg:  0 32px 80px rgba(25, 52, 56, 0.12);
+  --shadow-cyan: 0 18px 36px rgba(45, 111, 138, 0.12);
+  --shadow-red:  0 18px 36px rgba(186, 75, 69, 0.14);
+
+  --transition: all 0.24s ease;
+  --transition-fast: all 0.14s ease;
+
+  --z-sidebar:  200;
+  --z-navbar:   200;
+  --z-modal:    400;
+  --z-toast:    500;
+}
